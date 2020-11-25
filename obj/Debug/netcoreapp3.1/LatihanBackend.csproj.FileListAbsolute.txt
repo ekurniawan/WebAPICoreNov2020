@@ -18,3 +18,10 @@ D:\Workshop\2020\WebAPINov2020\LatihanBackend\obj\Debug\netcoreapp3.1\staticweba
 D:\Workshop\2020\WebAPINov2020\LatihanBackend\obj\Debug\netcoreapp3.1\LatihanBackend.dll
 D:\Workshop\2020\WebAPINov2020\LatihanBackend\obj\Debug\netcoreapp3.1\LatihanBackend.pdb
 D:\Workshop\2020\WebAPINov2020\LatihanBackend\obj\Debug\netcoreapp3.1\LatihanBackend.genruntimeconfig.cache
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\obj\Debug\netcoreapp3.1\LatihanBackend.csproj.CopyComplete
