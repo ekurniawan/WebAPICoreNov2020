@@ -70,6 +70,8 @@ namespace LatihanBackend.DAL
             return barang;
         }
 
+
+//"DefaultConnection": "Server=tcp:sampleactualdbserver.database.windows.net,1433;Initial Catalog=EmployeeDb;Persist Security Info=False;User ID=erick;Password=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         /*public string GetLastKode(){
             string KodeBarang = string.Empty;
             using(SqlConnection conn = new SqlConnection(GetConnStr())){
