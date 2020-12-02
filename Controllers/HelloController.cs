@@ -15,6 +15,7 @@ namespace LatihanBackend.Controllers
             var listNama = new List<string>{
                 "Erick","Budi","Bambang","Joko","Ani"
             };
+            System.Console.WriteLine($"{listNama[0]}");
             return listNama;
         }
     }

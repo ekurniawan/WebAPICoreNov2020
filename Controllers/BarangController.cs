@@ -34,6 +34,14 @@ namespace LatihanBackend.Controllers
             return result;
         }
 
+        [HttpGet]
+        [Route("Hello/{pesan}")]
+        public string Hello(string pesan)
+        {
+            return pesan;
+        }
+
+
         [HttpPost]
         public IActionResult Post(Barang barang){
             try

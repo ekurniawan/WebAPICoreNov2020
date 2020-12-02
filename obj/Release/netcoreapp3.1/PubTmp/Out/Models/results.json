@@ -1,0 +1,7 @@
+{
+    "nota": {
+    "PelangganID": 1,
+    "Tanggal": "2020-12-01"},
+    "items": [{"KodeBarang": "KK123","Jumlah": 2,"HargaJual": 1000000},
+    {"KodeBarang":"KK222","Jumlah": 1,"HargaJual": 750000}]
+}
