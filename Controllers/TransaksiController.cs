@@ -20,11 +20,23 @@ namespace Controllers
 
         public IActionResult Post(TransaksiPenjualan jual){
             try{
-                _transaksiDAL.InsetTransaksi(jual);
-                return Ok("Transaksi berhasil ditambahkan");
+                int noNota = _transaksiDAL.InsetTransaksi(jual);
+
+                var myOutput = new MyOutput
+                {
+                    Status = "SUCCESS",
+                    Pesan = $"Data Transaksi dengan no nota {noNota} berhasil ditambahkan"
+                }; 
+
+                return Ok(myOutput);
             }
             catch(Exception ex){
-                return BadRequest(ex.Message);
+                var myOutput = new MyOutput
+                {
+                    Status = "ERROR",
+                    Pesan = $"{ex.Message}"
+                };
+                return BadRequest(myOutput);
             }
         }
     }

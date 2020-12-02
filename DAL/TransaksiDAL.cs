@@ -16,7 +16,7 @@ namespace DAL {
             return _config.GetConnectionString ("DefaultConnection");
         }
 
-        public void InsetTransaksi (TransaksiPenjualan transaksiJual) {
+        public int InsetTransaksi (TransaksiPenjualan transaksiJual) {
             try {
                 using (TransactionScope scope = new TransactionScope ()) {
                     using (SqlConnection conn = new SqlConnection (GetConnStr ())) {
@@ -41,6 +41,7 @@ namespace DAL {
                         cmd2.ExecuteNonQuery ();
 
                         scope.Complete();
+                        return notaID;
                     }
                 }
             } catch (SqlException sqlEx) {
