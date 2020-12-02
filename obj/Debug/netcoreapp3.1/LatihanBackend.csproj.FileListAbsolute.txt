@@ -25,3 +25,4 @@ D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\w
 D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Workshop\2020\WebAPINov2020\LatihanBackend\obj\Debug\netcoreapp3.1\LatihanBackend.csproj.CopyComplete
+D:\Workshop\2020\WebAPINov2020\LatihanBackend\bin\Debug\netcoreapp3.1\Models\results.json
